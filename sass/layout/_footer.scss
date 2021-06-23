@@ -1,0 +1,24 @@
+.footer {
+  background: var(--title-bg-color);
+  padding: 60px 0;
+}
+
+.footer-conteiner {
+  display: flex;
+  align-items: baseline;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1200px;
+}
+.footer-dark {
+  margin: 0;
+}
+
+.footer-ul {
+  padding-right: 0;
+}
+
+.footer-li:not(:last-child) {
+  width: 230px;
+  margin-bottom: 10px;
+}

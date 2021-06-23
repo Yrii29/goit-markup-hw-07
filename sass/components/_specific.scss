@@ -1,0 +1,40 @@
+.sector-specific {
+  display: flex;
+  padding-top: 94px;
+}
+
+.specific-conteiner {
+  margin: 0 auto;
+  width: 1200px;
+  align-items: center;
+  padding: 0px 15px;
+}
+
+.specific-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--sector-bg-color);
+}
+
+.social-icons-svg {
+  width: 70px;
+  height: 70px;
+  border-radius: 4px;
+  fill: rgba(245, 244, 250, 1);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.specific-ul {
+  display: flex;
+}
+
+.specific-li:not(:last-child) {
+  margin-right: 30px;
+}

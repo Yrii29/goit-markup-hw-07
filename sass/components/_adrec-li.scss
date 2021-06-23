@@ -1,0 +1,30 @@
+.adrec-li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.adres-el {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--adrec-el-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.adrec-icons-svg {
+  margin-right: 5px;
+  fill: currentColor;
+}
+
+.adres-el:hover,
+.adres-el:focus,
+.adrec-icons-svg-envelope:hover,
+.adrec-icons-svg-envelope:focus,
+.adrec-icons-svg-smartphone:hover,
+.adrec-icons-svg-smartphone:focus {
+  color: var(--web-color);
+}

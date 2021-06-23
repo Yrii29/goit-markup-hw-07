@@ -1,0 +1,71 @@
+.substrides {
+  color: var(--title-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-left: 93px;
+}
+
+.footer-adres {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--page-title);
+  margin-bottom: 20px;
+}
+
+.email-box {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.input-email {
+  width: 358px;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: var(--title-bg-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  padding-left: 16px;
+  margin-right: 12px;
+}
+
+.btn-email {
+  width: 200px;
+  height: 50px;
+  color: var(--title-color);
+  background-color: var(--web-color);
+  border-width: 0px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 6px 22px 6px 22px;
+  font-weight: 500;
+  margin-right: 0;
+}
+
+.svg-email {
+  fill: var(--title-color);
+  margin-left: 10px;
+}
+
+.substride-label {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: transparent;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  padding: 15px 0 15px 16px;
+  color: var(--adrec-el-color);
+}

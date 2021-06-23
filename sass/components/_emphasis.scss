@@ -1,0 +1,15 @@
+.emphasis {
+  color: var(--web-color);
+  position: relative;
+}
+
+.emphasis::after {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 4px;
+  top: 42px;
+  width: 100%;
+  background-color: var(--web-color);
+  border-radius: 2px;
+}

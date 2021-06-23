@@ -1,0 +1,37 @@
+/*=========================UTILS=========================== */
+@import "./utils/variables";
+
+/* ========================BASE======================*/
+@import "./base/common";
+
+/*======================COMPONENTS====================*/
+@import "./components/web";
+@import "./components/sector-li";
+@import "./components/emphasis";
+@import "./components/adrec-li";
+@import "./components/title";
+@import "./components/button";
+@import "./components/window";
+@import "./components/specific";
+@import "./components/work";
+@import "./components/social-icons";
+@import "./components/customer-icons";
+@import "./components/social-footer";
+@import "./components/substrides";
+
+/*портфоліо*/
+@import "./components/button-portfolio";
+@import "./components/function-portfolio-section";
+
+/*======================LAYOUT========================*/
+@import "./layout/heder";
+@import "./layout/navigation";
+@import "./layout/sector-ul";
+@import "./layout/adres-ul";
+@import "./layout/main-title";
+@import "./layout/section-comando";
+@import "./layout/client";
+@import "./layout/footer";
+
+/*портфоліо*/
+@import "./layout/display";
