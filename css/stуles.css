@@ -46,7 +46,7 @@ li {
 }
 
 /* header початок*/
-.hat-sector {
+.header {
   border-bottom: 1px solid var(--border-bottom-color);
   display: flex;
   align-items: center;
@@ -54,7 +54,7 @@ li {
   margin-right: auto;
 }
 
-.hat-display {
+.header__conteiner {
   margin: 0px auto;
   display: flex;
   align-items: center;
@@ -63,7 +63,7 @@ li {
 }
 
 /*початок навігації*/
-.sector-nav {
+.nav {
   display: flex;
   align-items: center;
 }
@@ -82,17 +82,17 @@ li {
   color: var(--web-color);
 }
 
-.sector-ul {
+.nav__list {
   display: flex;
   margin: 0px;
   padding: 0px;
 }
 
-.sector-li:not(:last-child) {
+.nav_item:not(:last-child) {
   margin-right: 50px;
 }
 
-.list {
+.nav__link {
   text-decoration: none;
   color: var(--main-br-color);
   font-weight: 500;
@@ -100,12 +100,12 @@ li {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.emphasis {
+.nav__link-caren {
   color: var(--web-color);
   position: relative;
 }
 
-.emphasis::after {
+.nav__link-caren::after {
   position: absolute;
   display: block;
   content: '';
@@ -116,8 +116,8 @@ li {
   border-radius: 2px;
 }
 
-.list:hover,
-.list:focus {
+.nav__link:hover,
+.nav__link:focus {
   color: var(--web-color);
 }
 

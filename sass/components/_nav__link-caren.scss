@@ -1,9 +1,9 @@
-.emphasis {
+.nav__link-caren {
   color: var(--web-color);
   position: relative;
 }
 
-.emphasis::after {
+.nav__link-caren::after {
   position: absolute;
   display: block;
   content: "";

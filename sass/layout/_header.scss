@@ -1,4 +1,4 @@
-.hat-sector {
+.header {
   border-bottom: 1px solid var(--border-bottom-color);
   display: flex;
   align-items: center;
@@ -6,7 +6,7 @@
   margin-right: auto;
 }
 
-.hat-display {
+.header__conteiner {
   margin: 0px auto;
   display: flex;
   align-items: center;

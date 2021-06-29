@@ -6,8 +6,8 @@
 
 /*======================COMPONENTS====================*/
 @import "./components/web";
-@import "./components/sector-li";
-@import "./components/emphasis";
+@import "./components/nav__item";
+@import "./components/nav__link-caren";
 @import "./components/adrec-li";
 @import "./components/title";
 @import "./components/button";
@@ -24,9 +24,9 @@
 @import "./components/function-portfolio-section";
 
 /*======================LAYOUT========================*/
-@import "./layout/heder";
-@import "./layout/navigation";
-@import "./layout/sector-ul";
+@import "./layout/header";
+@import "./layout/nav";
+@import "./layout/nav__list";
 @import "./layout/adres-ul";
 @import "./layout/main-title";
 @import "./layout/section-comando";
